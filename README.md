@@ -1,7 +1,7 @@
 # Marine Image Segmentation using Detectron2
 This repository was inspired by the following Detectron2 tutorial:
 
-#https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5
+https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5
 
 and this tutorial is what led to this repository.
 
@@ -62,6 +62,6 @@ We have also provided a data_val subdirectory in this GitHub repository. This fo
 
 ![Image](composite.png)
 
-At this time we are a bit unclear as to how to use a validation set in the Detectron2 training process. This will be added at a later date.  
+At this time we are a bit unclear as to how to employ a validation set in the actual Detectron2 training process. This will be added at a later date.  
 
 
