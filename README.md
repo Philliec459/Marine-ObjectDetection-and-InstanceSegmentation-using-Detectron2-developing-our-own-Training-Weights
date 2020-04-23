@@ -1,6 +1,9 @@
+# Marine Image Segmentation using Detectron2
+This repository was inspired by the following Detectron2 tutorial:
+
 #https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5
 
-This tutorial became the backbone of this repository.
+This tutorial was the backbone of this repository.
 
 According to Facebook AI Research (FAIR), "Detectron2 is Facebook AI Research's next generation software system that implements state-of-the-art object detection algorithms".
 
