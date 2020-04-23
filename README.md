@@ -47,7 +47,7 @@ We then used the following notebook to predict our nautical features like buoys,
 
 Detectron2_COCO_DataSegmentation_from_Marine_checkpoints.ipynb
 
-or you can use the python code in Spyder:
+or you can use the following python code in Spyder:
 
 Detectron2_COCO_DataSegmentation_from_Marine_checkpoints.py
 
