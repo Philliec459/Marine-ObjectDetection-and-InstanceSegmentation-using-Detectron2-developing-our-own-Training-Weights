@@ -18,7 +18,7 @@ We used Adrian's Marine image dataset as our training set, which also included a
 
 
 ## Marine Labels
-The following image is an example of an image being labeled in labelme to be used in training. 
+The following image is an example of an buoy being labeled in labelme to be used in training. 
 
 ![Image](labelme.png)
 
