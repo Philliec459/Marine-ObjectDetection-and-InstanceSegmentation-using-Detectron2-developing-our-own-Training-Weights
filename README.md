@@ -62,3 +62,16 @@ We provide a data_val subdirectory with this GitHub repository. This folder has 
 ![Image](composite.png)
 
 At this time we are a bit unclear as to how to employ a validation set in the actual Detectron2 training process. This will be added at a later date if found to add value, which it should.  
+
+Tools being employed:
+- OpenCPN
+- at the moment sending iPad GPS location data to OpenCPN using GPS2ZIP
+- iCom M506 AIS Receiver/VHF
+- NMEA2k Network - need to exploit this further
+- Jetson Xavier Development kit
+- Ubuntu 18.04
+- Video Camera ?
+- 
+- 
+
+
