@@ -64,16 +64,19 @@ We provide a data_val subdirectory with this GitHub repository. This folder has 
 At this time we are a bit unclear as to how to employ a validation set in the actual Detectron2 training process. This will be added at a later date if found to add value, which it should.  
 
 Tools being employed:
+
+- Colab for training and weights
+- Ubuntu 18.04
+- Jetson Xavier Development kit
+- Video Camera ?
+
+
 - OpenCPN
 - I was sending iPad GPS location data to OpenCPN using GPS2ZIP
-- on land using Boat Beacon with AIS targets being captured on iPad, and OpenCPN is networked into Boat Beacon.
+- Now (on land) using Boat Beacon with AIS targets being captured on iPad, and OpenCPN is networked into Boat Beacon.
 - Can use python VDRplayer to stream from nmea .txt file to OpenCPN for display
 - iCom M506 AIS Receiver/VHF
-- NMEA2k Network - need to exploit this further
-- Jetson Xavier Development kit
-- Ubuntu 18.04
-- Video Camera ?
-- 
+- NMEA2k Network - need to exploit this further and add wifi to boat NMEA 2k
 - 
 
 
