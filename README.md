@@ -65,7 +65,9 @@ At this time we are a bit unclear as to how to employ a validation set in the ac
 
 Tools being employed:
 - OpenCPN
-- at the moment sending iPad GPS location data to OpenCPN using GPS2ZIP
+- I was sending iPad GPS location data to OpenCPN using GPS2ZIP
+- on land using Boat Beacon with AIS targets being captured on iPad, and OpenCPN is networked into Boat Beacon.
+- Can use python VDRplayer to stream from nmea .txt file to OpenCPN for display
 - iCom M506 AIS Receiver/VHF
 - NMEA2k Network - need to exploit this further
 - Jetson Xavier Development kit
