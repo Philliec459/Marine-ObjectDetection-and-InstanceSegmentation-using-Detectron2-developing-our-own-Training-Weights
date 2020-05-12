@@ -66,14 +66,14 @@ At this time we are a bit unclear as to how to employ a validation set in the ac
 Tools being employed:
 
 - Colab for Detectron2 training and weights
-- NVIDIA's Jetson Xavier Development kit running Ubuntu 18.04 for low current draw
+- NVIDIA's Jetson Xavier Development kit running Ubuntu 18.04 for low current draw on boat
 - Video Camera to be determined
-
+-------------------------------------------------------------------------------------------------------
 - Using OpenCPN on Xavier for Navigation aid other that just the chart plotters
 - Can send iPad GPS location data to OpenCPN using GPS2ZIP if necessary
 - On land using Boat Beacon with AIS targets being captured on iPad. OpenCPN is networked into Boat Beacon.
 - Can use python VDRplayer to stream from nmea .txt file to OpenCPN for display
 - iCom M506 AIS Receiver/VHF on nmea 2k network
-- NMEA2k Network - need to exploit this further and add wifi to boat NMEA 2k
+- NMEA2k Network needs to exploit this further and add wifi to boat NMEA 2k
 
 
