@@ -20,7 +20,7 @@ We used Adrian's Marine image dataset as our training set, which also included a
 ## Marine Labels
 The following image is an example of an buoy being labeled in labelme to be used in training. 
 
-![Image](labelme.png)
+>![Image](labelme.png)
 
 Adrian's training dataset was composed of images and separate .json for each image. We used Chengwei Zhang's GitHub repository (see link below) to combine all the individual .json files obtained on each image. Labelme creates these individual json files from each image. With Chengwei's program we created the single trainval.json file used in training by Detectron2. We ran Chengwei's program using the following command line: 
 
@@ -55,11 +55,11 @@ or you can use the following python code in Spyder:
 
   Detectron2_COCO_DataSegmentation_from_Marine_checkpoints.py
 
-![Image](results.png)
+>![Image](results.png)
 
 We provide a data_val subdirectory with this GitHub repository. This folder has numerous images of nautical objects, all of which were not used in training process. These images are being used as validation of our model. The instance segmentation process appears to be working rather well as can be observed in the images below. 
 
-![Image](composite.png)
+>![Image](composite.png)
 
 At this time we are a bit unclear as to how to employ a validation set in the actual Detectron2 training process. This will be added at a later date if found to add value, which it should.  
 
